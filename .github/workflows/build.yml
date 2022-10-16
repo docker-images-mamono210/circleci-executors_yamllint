@@ -63,7 +63,7 @@ jobs:
         with:
           file: Dockerfile
           push: true
-          tags: ghcr.io/docker-hub-tm/circleci-executors/yamllint:latest
+          tags: ghcr.io/docker-images-mamono210/circleci-executors/yamllint:latest
 
   find-trailing-whitespace:
     name: Find Trailing Whitespace
